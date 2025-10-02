@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Homepage</title>
+  <title>SamuuGSG</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -55,6 +55,33 @@
       border-radius: 8px;
       margin-top: 1rem;
     }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 1rem;
+      text-align: left;
+    }
+    th {
+      background: #0077cc;
+      color: white;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background: #f0f8ff;
+    }
+    tr:hover {
+      background: #e0f0ff;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #0077cc;
+    }
     footer {
       background: #222;
       color: white;
@@ -74,33 +101,69 @@
 </head>
 <body>
   <header>
-    <h1>Dein Name</h1>
-    <p>Kurzer Slogan oder Beschreibung</p>
+    <h1>Samuel Deisböck</h1>
+    <p>Ich bin Samuel (Nickname: SmauuGSG)</p>
   </header>
 
   <main>
     <section>
       <h2>Über mich</h2>
-      <p>Hier kannst du etwas über dich schreiben. Zum Beispiel wer du bist, was du machst und welche Interessen du hast.</p>
-      <div class="placeholder">Profilbild</div>
+      <p>Hi,<br>Ich bin 13 Jahre alt und bin Hobbymäßiger Programmierer. Ich verwende Sprachen wie z.B. HTML, CSS, PHP, Python, Java, C++ ich beschäftige mich also eher mit web-development.</p>
+      <div class="placeholder"><img src="https://yt3.ggpht.com/wsh2LOrgDR_U4uLT0eMG7DO_eJdaYl4c1LB-zeWniXvbEYgdlGUxdyHKovGSE2GwlYBAoSxoeB0=s600-c-k-c0x00ffffff-no-rj-rp-mo"></div>
     </section>
 
     <section>
       <h2>Projekte</h2>
-      <p>Liste hier ein paar deiner Projekte auf oder beschreibe, woran du arbeitest.</p>
-      <div class="placeholder">Projekt Screenshot</div>
+      <p>Meine öffentlichen Projekte wie Java codes und Spiele seht ihr immer in meinem öffentlichen Github Profil: <br> Github:  <a href="https://github.com/SamuuGSG" target="_blank">github.com/SamuuGSG</a></p>
     </section>
 
     <section>
       <h2>Kontakt</h2>
-      <p>Du kannst mich erreichen über: <a href="mailto:email@example.com">email@example.com</a></p>
+      <p>Du kannst mich erreichen über: <a href="mailto:samuel@deisboeck.eu">samuel@deisboeck.eu</a></p>
       <div class="placeholder">Social Media Links</div>
+    </section>
+
+    <section>
+      <h2>Hobbys</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Hobby</th>
+            <th>Beschreibung</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Coden</td>
+            <td>Programmieren mit verschiedenen Sprachen und Web-Entwicklung</td>
+          </tr>
+          <tr>
+            <td>Drohne fliegen</td>
+            <td>Mit Drohne fliegen und die Welt von oben entdecken</td>
+          </tr>
+          <tr>
+            <td>Kamera & Videos</td>
+            <td>Coole Aufnahmen mit Kameras und Drohne, Kurzfilme schneiden</td>
+          </tr>
+          <tr>
+            <td class="highlight">Sport</td>
+            <td><span class="highlight">Basketball und Tischtennis</span></td>
+          </tr>
+          <tr>
+            <td>Schatzsuche</td>
+            <td>Mit dem Metalldetektor auf Schatzsuche gehen</td>
+          </tr>
+          <tr>
+            <td>Gaming</td>
+            <td>Minecraft, Euro Truck Simulator und weitere Spiele</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
   <footer>
-    © 2025 Dein Name – Alle Rechte vorbehalten
+    © 2025 Samuel Deisböck – Alle Rechte vorbehalten
   </footer>
 </body>
 </html>
-
