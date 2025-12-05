@@ -1,171 +1,82 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>SamuuGSG</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      color: #aaa;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.3rem;
-    }
-    p {
-      line-height: 1.6;
-    }
-    .placeholder {
-      background: #ddd;
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #666;
-      font-size: 1.2rem;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-    .placeholder img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      display: block;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: white;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 1rem;
-      text-align: left;
-    }
-    th {
-      background: #0077cc;
-      color: white;
-      font-weight: bold;
-    }
-    tr:nth-child(even) {
-      background: #f0f8ff;
-    }
-    tr:hover {
-      background: #e0f0ff;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
-      margin-top: 3rem;
-      font-size: 0.9rem;
-    }
-    a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8" />
+<title>Weihnachts-Wunschliste</title>
+<style>
+  body {
+    background-color: #000000;
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  h1 {
+    color: #FFD700;
+    text-align: center;
+  }
+  .item {
+    border: 2px solid #FFD700;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .item-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .item-desc {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .item-link a {
+    color: #FFD700;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-  <header>
-    <h1>Samuel Deisböck</h1>
-    <p>Ich bin Samuel (Nickname: SamuuGSG)</p>
-  </header>
+<h1>🎄 Meine Weihnachts-Wunschliste 🎁</h1>
 
-  <main>
-    <section>
-      <h2>Über mich</h2>
-      <p>Hi,<br>Ich bin 13 Jahre alt und bin Hobbymäßiger Programmierer. Ich verwende Sprachen wie z.B. HTML, CSS, PHP, Python, Java, C++ ich beschäftige mich also eher mit web-development.</br>Bald fang ich auch schon an für den Google Play Store Apps zu coden!</p>
-      <div class="placeholder"><img src="https://yt3.ggpht.com/wsh2LOrgDR_U4uLT0eMG7DO_eJdaYl4c1LB-zeWniXvbEYgdlGUxdyHKovGSE2GwlYBAoSxoeB0=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="Profilbild"></div>
-    </section>
+<div class="item">
+  <div class="item-title">Tastatur (weiß)</div>
+  <div class="item-desc">Stylische weiße Tastatur für cleanes Setup.</div>
+  <div class="item-link"><a href="https://www.amazon.de/gp/product/B0FHV8325M/ref=ox_sc_act_title_5?smid=AJ3TMHKS1F9WW&psc=1">Zum Produkt</a></div>
+</div>
 
-    <section>
-      <h2>Projekte</h2>
-      <p>Meine öffentlichen Projekte wie Java codes und Spiele seht ihr immer in meinem öffentlichen Github Profil: <br> Github:  <a href="https://github.com/SamuuGSG" target="_blank">github.com/SamuuGSG</a></p>
-    </section>
+<div class="item">
+  <div class="item-title">Wireless Charger fürs Handy</div>
+  <div class="item-desc">Kabelloses Ladegerät – einfach Handy drauf und laden.</div>
+  <div class="item-link"><a href="https://www.amazon.de/gp/product/B0B7KQS1F8/ref=ox_sc_act_title_4?smid=A2HAU4SJHHUNIW&psc=1">Zum Produkt</a></div>
+</div>
 
-    <section>
-      <h2>Kontakt</h2>
-      <p>Du kannst mich erreichen über: <a href="mailto:samuel@deisboeck.eu">samuel@deisboeck.eu</a></p>
-    </section>
+<div class="item">
+  <div class="item-title">Handyhülle Nothing Phone 2 (weiß)</div>
+  <div class="item-desc">Weiße Schutzhülle passend für das Nothing Phone 2.</div>
+  <div class="item-link"><a href="https://www.amazon.de/gp/product/B0CWJ1Q7FW/ref=ox_sc_act_title_3?smid=A3T3WFZ9NC0B&psc=1">Zum Produkt</a></div>
+</div>
 
-    <section>
-      <h2>Hobbys</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Hobby</th>
-            <th>Beschreibung</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Coden</td>
-            <td>Programmieren mit verschiedenen Sprachen und Web-Entwicklung</td>
-          </tr>
-          <tr>
-            <td>Drohne fliegen</td>
-            <td>Mit Drohne fliegen und die Welt von oben entdecken</td>
-          </tr>
-          <tr>
-            <td>Kamera & Videos</td>
-            <td>Coole Aufnahmen mit Kameras und Drohne, Kurzfilme schneiden</td>
-          </tr>
-          <tr>
-            <td>Sport</td>
-            <td>Basketball und Tischtennis</td>
-          </tr>
-          <tr>
-            <td>Schatzsuche</td>
-            <td>Mit dem Metalldetektor auf Schatzsuche gehen</td>
-          </tr>
-          <tr>
-            <td>Gaming</td>
-            <td>Minecraft, Euro Truck Simulator und weitere Spiele</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
+<div class="item">
+  <div class="item-title">ELRS FPV Funke</div>
+  <div class="item-desc">Funkfernsteuerung für spätere FPV Drohne und Simulator-Training.</div>
+  <div class="item-link"><a href="https://www.amazon.de/gp/product/B0DTJYKJN6/ref=ox_sc_act_title_2?smid=A97XFITSCFKIT&psc=1">Zum Produkt</a></div>
+</div>
 
-  <footer>
-    © 2025 Samuel Deisböck – Alle Rechte vorbehalten
-  </footer>
+<div class="item">
+  <div class="item-title">18650 Akkus + Ladegerät (2er Pack)</div>
+  <div class="item-desc">Akkus inkl. Ladegerät passend für die ELRS Funke.</div>
+  <div class="item-link"><a href="https://www.amazon.de/gp/product/B0FY3PZVMC/ref=ox_sc_act_title_1?smid=A1N4S7TZWFOXZ7&psc=1">Zum Produkt</a></div>
+</div>
+
+<div class="item">
+  <div class="item-title">Nothing Phone 2 (gebraucht)</div>
+  <div class="item-desc">Gebrauchtes Nothing Phone 2 in Weiß.</div>
+  <div class="item-link"><a href="https://www.kleinanzeigen.de/s-anzeige/v-nothing-phone-2-modell-a065-256-gb-12-gb-ram-weiss/3249106023-173-361">Zum Produkt</a></div>
+</div>
+  <div class="item-desc">Kurze Beschreibung, was das ist.</div>
+  <div class="item-link"><a href="#">Link einfügen</a></div>
+</div>
+
 </body>
 </html>
